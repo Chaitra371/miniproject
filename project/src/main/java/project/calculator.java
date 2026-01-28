@@ -2,7 +2,7 @@ package project;
 import java.util.Scanner;
 public class calculator {
 	public static void main(String[] args) {
-        
+    
         double num1, num2, num3, result = 0;
         char operator;
         Scanner scanner = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class calculator {
                 break;
             case '/':
                 if (num2 == 0 || num3 == 0) {
-                    System.out.println("Error: Division by zero is not allowed.");
+                    System.out.println("Error: Division by zero is not allowed.error");
                     scanner.close();
                     return; 
                 }
